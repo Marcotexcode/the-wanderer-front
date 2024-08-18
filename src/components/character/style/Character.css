@@ -1,0 +1,77 @@
+.character-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.character-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.character-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.character-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.character-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.character-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.character-form button:hover {
+  background-color: #0056b3;
+}
+
+.character-form .error-message {
+  color: #ff0000;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.character-form .forgot-password {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.character-form .forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.character-form .forgot-password a:hover {
+  text-decoration: underline;
+}
